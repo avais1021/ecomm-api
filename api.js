@@ -674,6 +674,7 @@ app.get('/api/products', (req, res) => {
             featured: x.featured
         }
     });
+    
 
     res.json(p);
 });
